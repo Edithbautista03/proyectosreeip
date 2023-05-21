@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <title>Iniciar Sesión | Sistema SREEIP</title>
+    <link rel="shortcut icon" href="resources/images/UABCLOGO.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="resources/css/styleLogin.css">
+</head>
+
+<body>
+    <br><br>
+    <center><img src="resources/images/ENSENADALOGO.png" width="1200" height="176"></center>
+    <div class="login">
+        <h1>Iniciar Sesión</h1>
+        <form action="/inicio-sesion" method="POST">
+            <label for="username">
+                <i class="fas fa-user"></i>
+            </label>
+            <input type="email" name="correo_electronico" placeholder="Correo Electrónico" id="correo_electronico"
+                required>
+            <br><label for="password">
+                <i class="fas fa-lock"></i>
+            </label>
+            <input type="password" name="contrasena" placeholder="Contraseña" id="contrasena" required>
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+    </div>
+</body>
+
+</html>

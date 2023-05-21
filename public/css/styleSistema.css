@@ -1,0 +1,22 @@
+footer {
+    padding: 30px 10px;
+    background: #00723F;
+    color: #FFFFFF;
+}
+
+p {
+    font-weight: 640;
+}
+
+.navbar-toggler {
+    background-color: #00723F;
+}
+
+a {
+    background-color: #00723F;
+    transition: background-color .5s;
+}
+
+a:hover {
+    background-color: #7eb444;
+}
